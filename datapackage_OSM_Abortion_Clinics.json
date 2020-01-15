@@ -1,0 +1,201 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "abortion-clinic-osm.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "type",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "id",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "lat",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "lon",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "tags/addr:city",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/addr:housenumber",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "tags/addr:street",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/healthcare",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/healthcare:speciality",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/website",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/addr:postcode",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "tags/alt_name",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/opening_hours",
+            "type": "time",
+            "format": "default"
+          },
+          {
+            "name": "tags/operator",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/wheelchair",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/addr:state",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "tags/amenity",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/gnis:created",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "tags/contact:phone",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "tags/contact:phone:US",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "tags/contact:website",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/entrance",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/phone",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "tags/email",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/healthcare:counselling",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "tags/building",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "tags/building:levels",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "tags/roof:shape",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "tags/source",
+            "type": "any",
+            "format": "default"
+          },
+          {
+            "name": "tags/roof:levels",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "tags/source:addr:postcode",
+            "type": "number",
+            "format": "default"
+          },
+          {
+            "name": "tags/source:geometry",
+            "type": "integer",
+            "format": "default"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "abortion",
+    "osm",
+    "openstreetmap"
+  ],
+  "name": "abortion-clinics",
+  "title": "abortion-clinics-osm",
+  "description": "Dataset retrieved using overpassturbo. Data created by the OSM community",
+  "homepage": "https://openstreetmap.org",
+  "contributors": [
+    {
+      "title": "osm community",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-SA-4.0",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "path": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ]
+}
